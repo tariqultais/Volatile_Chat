@@ -1,0 +1,136 @@
+body{
+	background: url("img/bgm.png") fixed;
+}
+#wrapper{
+	height:650px;
+	width:400px;
+	background: url("img/bgn.png");
+	margin: 0 auto;
+	box-shadow: 1px 1px 30px 1px #000;
+}
+#header{
+	height: 8%;
+	width: 100%;
+	font-family: Forte;
+	font-size: 30px;
+	background: #000;
+	color: #00CAFE;
+	float: left;
+}
+#header img{
+	height: 30px;
+	margin-right: 25px;
+	margin-left: 25px;
+	margin-top: 5px;
+}
+#header td{
+	height: 100px;
+	width: 100px;
+	background: #fff;
+}
+#container{
+	height: 87%;
+	width: 100%;
+	float: left;
+	color: #fff;
+	font-size: 20px;
+}
+#show{
+	height: 90%;
+	width: 100%;
+	float: left;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 10px;
+}
+#msg{
+	height: 90%;
+	width: 95%;
+	/*border: 1px solid #00FFA5;*/
+	border-radius: 5px;
+	margin: 0 auto;
+	font-size:21px;
+}
+#msg img{
+	height: 23px;
+	border: 1px solid #fff;
+	margin-left: 25px;
+	margin-top: 15px;
+	border-radius: 50%;
+	margin-right: 10px;
+	cursor: pointer;
+
+}
+#msg img:hover{
+	transform: scale(2);
+	box-shadow: 1px 1px 30px 10px #000;
+	transition: 1s;
+
+}
+#le{
+	
+	width: 100%;
+	float: left;
+}
+#re{
+	height: auto;
+	width: auto;
+	float: right;
+
+}
+i{
+	background-color: rgba(255,255,255,0.4);
+	padding: 4 20 4px;
+	border-radius: 7px;
+	border: 1.5px solid #ccc;
+}
+#textter{
+	height: 10%;
+	width: 100%;
+	float: left;
+	text-align: center;
+
+
+}
+input{
+	border: 3px solid #444;
+	background: linear-gradient(to left,#333,#AEAEAE,#fff,#AEAEAE,#333);
+	padding: 4 18 4px;
+	border-radius: 5px;
+	
+
+}
+
+button{
+	border-radius: 7px;
+	background: url("img/bgm.png");
+	color: #fff;
+	font-family: segoe print;
+	font-size: 13px;
+	padding:2 10px;
+	cursor: pointer;
+	border: 3px solid #444;
+	
+	margin-left: 10px;
+	
+
+}
+button:hover{
+	border: 3px solid #fff;
+	background: url("img/bgn.png");
+	color: #fff;
+	transition: 0.4s;
+	box-shadow: 1px 1px 20px 1px #000;
+
+}
+
+#footer{
+	height: 5%;
+	width: 100%;
+	background: #000;
+	float: left;
+	color: #00CAFE;
+	text-align: center;	
+	font-size: 17px;
+	font-family: segoe print;
+}
+
